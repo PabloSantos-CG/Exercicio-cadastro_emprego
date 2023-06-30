@@ -108,7 +108,7 @@ function excluirVaga () {
   )
 
   if(confirmacao) {
-    vaga.splice(indice, 1)
+    vagas.splice(indice, 1)
     alert('Vaga excluída com sucesso.')
     return
   }
